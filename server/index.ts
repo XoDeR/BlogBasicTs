@@ -1,7 +1,12 @@
 import express from 'express';
+import postRoute from './routes/postRoute';
+
 const app: express.Application = express();
 const port: number = 7788;
- 
+
+app.use(express.json());
+app.use("/api/post", postRoute);
+
 app.get('/', (_req, _res) => {
     _res.send("TypeScript With Express");
 });
@@ -11,5 +16,5 @@ app.listen(port, () => {
          http://localhost:${port}/`);
 });
 
-import dbJson from './db.json';
-console.log(dbJson.posts);
+
+
