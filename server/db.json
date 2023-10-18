@@ -1,0 +1,44 @@
+{
+	"posts: [
+		{
+			"id": 1,
+			"title": "De school",
+			"text": "Beste leraar. Ik heb twee problemen: ik heb geen kinderopvang voor mijn dochter. En de school is ver weg. Maar ik heb een oplossing voor deze twee problemen."
+		},
+		{
+			"id": 2,
+			"title": "De agenda",
+			"text": "Hoi Wim, Hoe gaat het met je? We kunnen een afspraak maken. Zullen we op zaterdagavond samen eten in een pizzeria?"
+		},
+		{
+			"id": 3,
+			"title": "De kleding",
+			"text": "Hoi Marleen, Hoe gaat het met je? Ik heb mooie kleding gekocht op internet bij Zalando. Ik ben heel blij. Het was allemaal goedkoop. Ik heb twee truien en twee broeken gekocht."
+		},
+		{
+			"id": 4,
+			"title": "De boodschappen",
+			"text": "Hoi lieverd, Sorry, het is heel druk op mijn werk. Ik kan de boodschappen vandaag niet doen. Kun jij alsjeblieft de boodschappen halen?"
+		},
+		{
+			"id": 5,
+			"title": "Eten en drinken",
+			"text": "Hoi Rik, Dank je wel voor de uitnodiging. Ik vind Spaans eten erg lekker, met vis bijvoorbeeld. Ik kom hoor!"
+		},
+		{
+			"id": 6,
+			"title": "Het verkeer",
+			"text": "Hoi Marieke, Volgende week kom ik bij jou op bezoek in Amsterdam. Ik blijf twee dagen bij jou. Ik kom met de auto."
+		},
+		{
+			"id": 7,
+			"title": "De tijd",
+			"text": "Hoi Broer, Dank je wel voor de uitnodiging. Het lijkt me leuk om samen naar het stadion te gaan. Maar ik kan niet op 31 maart. Mijn vrouw is dan jarig. Daarom kan ik die dag niet weg."
+		},
+		{
+			"id": 8,
+			"title": "De vakantie",
+			"text": "Hoi Tessa, Ik ga morgen op vakantie. Dat weet je al. Mijn kat blijft thuis. Wil je mijn kat verzorgen? Ik hoop het."
+		}
+	]
+}
