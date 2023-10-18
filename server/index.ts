@@ -10,3 +10,6 @@ app.listen(port, () => {
     console.log(`TypeScript with Express 
          http://localhost:${port}/`);
 });
+
+import dbJson from './db.json';
+console.log(dbJson.posts);
