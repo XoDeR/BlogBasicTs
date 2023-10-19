@@ -1,9 +1,11 @@
 import express from 'express';
+import cors from 'cors';
 import postRoute from './routes/postRoute';
 
 const app: express.Application = express();
 const port: number = 7788;
 
+app.use(cors());
 app.use(express.json());
 app.use("/api/post", postRoute);
 
