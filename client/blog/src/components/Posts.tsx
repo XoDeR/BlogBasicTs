@@ -25,14 +25,22 @@ const Posts = () => {
   };
 
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 items-start justify-center">
       {posts.map((post) => (
-        <div key={post.id}>
-          <h2>{post.title}</h2>
-          <p>{post.text}</p>
+        <div
+          key={post.id}
+          className="p-4 border rounded shadow-md max-w-lg mx-auto"
+        >
+          <h2 className="text-xl font-bold mb-2">{post.title}</h2>
+          <p className="text-sm text-gray-600">{post.text}</p>
         </div>
       ))}
-      <button onClick={handleClick}>Go to new post</button>
+      <button
+        className="p-4 border rounded shadow-md max-w-lg mx-auto"
+        onClick={handleClick}
+      >
+        New post
+      </button>
     </div>
   );
 };
